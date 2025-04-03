@@ -1,4 +1,4 @@
-chinh sua cac prompt 'chatbot\utils\custom_prompt.py'
+chinh sua cac prompt 'chatbot\utils\custom_prompt.py'    da hoan thanh
 
 file cau hinh 'app\config.py', '.env'
 

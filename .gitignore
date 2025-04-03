@@ -73,3 +73,19 @@ pytest_cache/
 
 # Folder
 demo
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pkl
+
+# LangChain vector index
+demo/data_vector/
+
+# VSCode
+.vscode/
+
+# React (nếu sau này có)
+node_modules/
+dist/
