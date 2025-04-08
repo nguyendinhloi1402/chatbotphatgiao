@@ -1,90 +1,51 @@
 # Byte-compiled files
-
 __pycache__/
-
 *.py[cod]
-
 *$py.class
 
-
-
 # Distribution / packaging
-
 build/
-
 dist/
-
 *.egg-info/
-
 *.egg
-
 *.whl
 
-
-
 # Test results
-
 *.log
-
 *.coverage
-
 .coverage.*
-
 .cache
-
 pytest_cache/
-
 .tox/
 
-
 # Jupyter Notebook checkpoints
-
 .ipynb_checkpoints/
 
-
 # MyPy, Pyright, or other type checker files
-
 .mypy_cache/
-
 .pyre/
-
 .pytype/
 
-
 # IDE-specific files
-
 .vscode/
-
 .idea/
-
 *.sublime-project
-
 *.sublime-workspace
 
-
 # MacOS specific files
-
 .DS_Store
 
-
 # Docker-specific
-
 *.pid
 
-# Folder
-demo
-
 # Python
-venv/
+venv/           # giữ lại ignore thư mục venv
 __pycache__/
 *.pyc
 *.pkl
 
 # LangChain vector index
 demo/data_vector/
-
-# VSCode
-.vscode/
 
 # React 
 node_modules/
@@ -95,8 +56,11 @@ dist/
 /node_modules
 /public/storage
 /storage/*.key
-.env
+.env            # giữ lại ignore file .env
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 
+# -- Removed from ignore --
+# demo/
+# chatbot-phatgiao/
