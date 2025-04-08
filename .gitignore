@@ -86,6 +86,17 @@ demo/data_vector/
 # VSCode
 .vscode/
 
-# React (nếu sau này có)
+# React 
 node_modules/
 dist/
+
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+
